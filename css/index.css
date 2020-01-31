@@ -242,16 +242,18 @@ h2 {
 
 }
 
+/* Mobile View */
 @media (max-width: 500px) {
-    .logo {
-        align-self: flex-start;
+    .logo {				/*great idea image*/
+		align-self: flex-start;
+		border-bottom: 1px solid #c1c1c1;
     }
 
-    .codeimg {
+    .codeimg {		/*globe with code*/
       display: none;
     }
 
-    .phrase {
+    .phrase {		/* innovation on demand */
         margin: 0 auto;
     }
 
@@ -259,8 +261,19 @@ h2 {
         flex-direction: column;
         flex-wrap: wrap;
         align-content: center;
-        align-items: center;
-    }
+		align-items: center;
+		width: 100%;
+	}
+
+	.navigation {
+		width: 100%;
+	}
+
+	a {
+		display: block;
+		width: 100%;
+		border-bottom: 1px solid #c1c1c1;
+	}
 
     .border {
         flex-direction: column;
@@ -278,6 +291,7 @@ h2 {
     }
 }
 
+/* Tablet View */
 @media (max-width: 800px) {
        .container {
             width: 100%;
