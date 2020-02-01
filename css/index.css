@@ -246,8 +246,16 @@ h2 {
 @media (max-width: 500px) {
     .logo {				/*great idea image*/
 		align-self: flex-start;
-		border-bottom: 1px solid #c1c1c1;
+		/* border-bottom: 1px solid #c1c1c1; */
+		/* width: 100%; */
+		/* border: 1px solid blue; */
     }
+
+	div.idea {
+		width: 80%;
+    	text-align: center;
+    	border-bottom: 1px solid #c1c1c1;
+	}
 
     .codeimg {		/*globe with code*/
       display: none;
@@ -263,6 +271,13 @@ h2 {
         align-content: center;
 		align-items: center;
 		width: 100%;
+		/* border-bottom: 1px solid black; */
+		/* border: 2px dotted red; */
+	}
+
+	nav ul li {
+		width: 100%;
+		text-align: center;
 	}
 
 	.navigation {
@@ -300,7 +315,7 @@ h2 {
 
         div.navigation {
             flex-direction: column-reverse;
-            align-items: center;
+			align-items: center;
         }
 
         .codeimg {
